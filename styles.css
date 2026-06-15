@@ -445,7 +445,7 @@ section {
 }
 
 .about-image {
-  width: 100%;
+  width: 450px;
   border-radius: 16px;
   position: relative;
   z-index: 1;
