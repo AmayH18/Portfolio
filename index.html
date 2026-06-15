@@ -56,7 +56,7 @@
         </div>
         <div class="landing-cta reveal reveal-fade-up stagger-4">
           <a href="#about" class="btn-primary">Learn More About Me <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></a>
-          <a href="resume/Amay_Hiremath_Resume.pdf" class="btn-outline" download>Download Resume</a>
+          <a href="resume/Amay_H_9890250516.pdf" class="btn-outline" download>Download Resume</a>
           <a href="#contact" class="btn-outline">Get In Touch</a>
         </div>
         <div class="landing-social reveal reveal-fade-up stagger-5">
@@ -73,7 +73,7 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-image-wrapper">
-          <img class="about-image reveal reveal-fade-left" src="profile_pic/profile_pic.png" alt="Amay Hiremath">
+          <img class="about-image reveal reveal-fade-left" src="profile_pic/Profile_pic.png" alt="Amay Hiremath">
         </div>
         <div class="about-text">
           <p class="section-label">About Me</p>
@@ -223,7 +223,7 @@
             <span class="tech-pill">Linux</span>
           </div>
           <div class="project-repo-link reveal reveal-fade-up stagger-5">
-            <a href="https://github.com/AmayH18/PromptPal" target="_blank" class="btn-outline">View Repository →</a>
+            <a href="https://github.com/AmayH18/PromptPal-Personalized-Skin-Hair-and-Body-Wellness-" target="_blank" class="btn-outline">View Repository →</a>
           </div>
         </div>
       </div>
@@ -254,7 +254,7 @@
             <span class="tech-pill">MySQL</span>
           </div>
           <div class="project-repo-link reveal reveal-fade-up stagger-5">
-            <a href="https://github.com/AmayH18/ATM-Simulator" target="_blank" class="btn-outline">View Repository →</a>
+            <a href="https://github.com/AmayH18/PROJECT-ATM-SIMULATOR" target="_blank" class="btn-outline">View Repository →</a>
           </div>
         </div>
       </div>
@@ -1029,6 +1029,12 @@
 
     window.addEventListener('scroll', highlightNav);
     highlightNav();
+    // Log broken images to console for debugging
+    document.querySelectorAll("img").forEach(img => {
+      img.onerror = () => {
+        console.error("Broken image:", img.src);
+      };
+    });
   </script>
 
 </body>
